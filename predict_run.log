@@ -1,0 +1,127 @@
+Loading models from 'xgb_model_rain.pkl, xgb_model_waterlog.pkl, xgb_model_wind.pkl'...
+
+--- Current Regional Synoptic Weather ---
+Source              : 'latest_synoptic_weather.json' (saved synoptic JSON)
+Valid hour          : 2026-10-30 02:00:00
+Regional Coarse Rain: 0.0 mm/hr
+Relative Humidity   : 79.0%
+Surface Wind Speed  : 7.3 km/h
+Cloud Cover         : 100.0%
+
+=======================================================
+  PREDICTED 8x8 RAINFALL (mm/hr)
+=======================================================
+Row 0:  0.00  0.00  0.01  0.17  0.00  0.00  0.18  0.00
+Row 1:  0.01  0.04  4.87  0.00  0.00  0.18  0.16  0.00
+Row 2:  0.01  0.00  0.00  0.00  0.02  0.00  4.61  0.00
+Row 3:  0.02  0.00  4.26  0.01  0.08  4.94  0.00  0.01
+Row 4:  0.00  0.00  0.00  0.11  0.14  0.00  0.00  0.00
+Row 5:  0.00  0.00  0.00  0.00  0.00  4.04  4.78  0.00
+Row 6:  0.01  4.39  0.00  0.00  0.00  0.00  0.08  0.00
+Row 7:  0.02  0.00  0.00  0.02  0.02  0.04  0.20  0.00
+=======================================================
+
+=======================================================
+  PREDICTED 8x8 WATERLOGGING POSSIBILITY (%)
+=======================================================
+Row 0:  32.8  25.4  33.0  38.0  28.1  22.6  30.7  18.3
+Row 1:  39.2  35.0  28.6  22.4  19.6  28.7  30.4  30.4
+Row 2:  27.8  34.7  26.5  20.4  30.8  33.5  40.5  32.4
+Row 3:  43.5  18.3  43.9  17.1  21.7  54.6  20.7  24.4
+Row 4:  33.8  27.7  34.6  22.8  32.9  21.8  29.6  32.7
+Row 5:  28.7  31.8  30.6  30.0  26.1  49.3  55.2  20.7
+Row 6:  16.9  46.5  18.7  34.6  32.7  36.8  23.8  25.7
+Row 7:  19.2  33.7  21.9  32.2  25.0  20.7  21.8  26.5
+=======================================================
+
+=======================================================
+  PREDICTED 8x8 SURFACE WIND (km/h)
+=======================================================
+Row 0:   8.2   8.1   8.2   8.5   8.4   8.1   8.2   8.3
+Row 1:   8.0   8.0   6.9   8.6   8.3   8.3   8.0   8.4
+Row 2:   8.2   8.5   8.5   8.2   8.0   8.0   7.1   8.4
+Row 3:   8.5   8.6   6.9   8.2   8.3   7.0   8.7   7.9
+Row 4:   8.4   8.1   8.2   8.3   8.6   8.7   8.1   8.3
+Row 5:   8.1   7.9   8.0   8.6   8.7   7.9   6.7   8.1
+Row 6:   8.1   7.0   8.6   8.5   8.2   8.0   7.1   8.5
+Row 7:   8.3   8.5   8.5   8.1   8.1   8.2   8.7   8.4
+=======================================================
+
+==========================================================================
+     BHULEKH REVENUE VILLAGE AGROMET ASSESSMENTS & ADVISORIES             
+==========================================================================
+
+📍 Village Mauza: Bado Sarai | बदोसराय [Cells: 4]
+   Peak Rain: 4.39 mm/hr | Areal Mean: 1.10 mm/hr | Wind: 8.5 km/h | Waterlog: 46%
+   Alert Level: [RED]
+   EN: 🚨 URGENT: Heavy convective downpour (4.4 mm/hr) expected within 35-45 minutes over Bado Sarai (बदोसराय) (Bado Sarai West Buffer [6,0]) [Cells: cell_6_0, cell_6_1, cell_7_0, cell_7_1]!
+   HI: 🚨 आपातकालीन चेतावनी: अगले 35-45 मिनट में Bado Sarai (बदोसराय) में तेज मूसलाधार बारिश (4.4 मिमी/घंटा) की संभावना!
+
+📍 Village Mauza: Chhatauni | छतौनी [Cells: 2]
+   Peak Rain: 0.04 mm/hr | Areal Mean: 0.03 mm/hr | Wind: 8.0 km/h | Waterlog: 39%
+   Alert Level: [GREEN]
+   EN: ☀️ SAFE WEATHER: Dry and clear conditions across Chhatauni (छतौनी).
+   HI: ☀️ मौसम अनुकूल: Chhatauni (छतौनी) में मौसम साफ और शुष्क रहने का अनुमान है।
+
+📍 Village Mauza: Deokhaliya | देवखलिया [Cells: 5]
+   Peak Rain: 0.17 mm/hr | Areal Mean: 0.07 mm/hr | Wind: 8.5 km/h | Waterlog: 38%
+   Alert Level: [GREEN]
+   EN: ☀️ SAFE WEATHER: Dry and clear conditions across Deokhaliya (देवखलिया).
+   HI: ☀️ मौसम अनुकूल: Deokhaliya (देवखलिया) में मौसम साफ और शुष्क रहने का अनुमान है।
+
+📍 Village Mauza: Fatehpur | फतेहपुर देहात [Cells: 8]
+   Peak Rain: 4.94 mm/hr | Areal Mean: 0.65 mm/hr | Wind: 8.7 km/h | Waterlog: 55%
+   Alert Level: [RED]
+   EN: 🚨 URGENT: Heavy convective downpour (4.9 mm/hr) expected within 35-45 minutes over Fatehpur (फतेहपुर देहात) (Fatehpur North - Mandi Sampark) [Cells: cell_3_5, cell_3_6, cell_3_7, cell_4_3, cell_4_4, cell_4_5, cell_4_6, cell_4_7]!
+   HI: 🚨 आपातकालीन चेतावनी: अगले 35-45 मिनट में Fatehpur (फतेहपुर देहात) में तेज मूसलाधार बारिश (4.9 मिमी/घंटा) की संभावना!
+
+📍 Village Mauza: Kalyani Basin | कल्याणी कछार [Cells: 3]
+   Peak Rain: 0.01 mm/hr | Areal Mean: 0.00 mm/hr | Wind: 8.2 km/h | Waterlog: 33%
+   Alert Level: [GREEN]
+   EN: ☀️ SAFE WEATHER: Dry and clear conditions across Kalyani Basin (कल्याणी कछार).
+   HI: ☀️ मौसम अनुकूल: Kalyani Basin (कल्याणी कछार) में मौसम साफ और शुष्क रहने का अनुमान है।
+
+📍 Village Mauza: Masauli | मसौली [Cells: 8]
+   Peak Rain: 4.87 mm/hr | Areal Mean: 0.66 mm/hr | Wind: 8.6 km/h | Waterlog: 31%
+   Alert Level: [RED]
+   EN: 🚨 URGENT: Heavy convective downpour (4.9 mm/hr) expected within 35-45 minutes over Masauli (मसौली) (Masauli North Boundary [0,6]) [Cells: cell_0_6, cell_0_7, cell_1_2, cell_1_3, cell_1_4, cell_1_5, cell_2_3, cell_2_4]!
+   HI: 🚨 आपातकालीन चेतावनी: अगले 35-45 मिनट में Masauli (मसौली) में तेज मूसलाधार बारिश (4.9 मिमी/घंटा) की संभावना!
+
+📍 Village Mauza: Nawabganj | नवाबगंज (पल्हरी / कस्बा) [Cells: 8]
+   Peak Rain: 4.78 mm/hr | Areal Mean: 1.11 mm/hr | Wind: 8.7 km/h | Waterlog: 55%
+   Alert Level: [RED]
+   EN: 🚨 URGENT: Heavy convective downpour (4.8 mm/hr) expected within 35-45 minutes over Nawabganj (नवाबगंज (पल्हरी / कस्बा)) (Nawabganj Rural West [5,3]) [Cells: cell_5_3, cell_5_4, cell_5_5, cell_5_6, cell_5_7, cell_6_5, cell_6_6, cell_6_7]!
+   HI: 🚨 आपातकालीन चेतावनी: अगले 35-45 मिनट में Nawabganj (नवाबगंज (पल्हरी / कस्बा)) में तेज मूसलाधार बारिश (4.8 मिमी/घंटा) की संभावना!
+
+📍 Village Mauza: Rampur | रामपुर कटरा [Cells: 3]
+   Peak Rain: 4.26 mm/hr | Areal Mean: 1.45 mm/hr | Wind: 8.3 km/h | Waterlog: 44%
+   Alert Level: [RED]
+   EN: 🚨 URGENT: Heavy convective downpour (4.3 mm/hr) expected within 35-45 minutes over Rampur (रामपुर कटरा) (Rampur West - Gaon Sthal) [Cells: cell_3_2, cell_3_3, cell_3_4]!
+   HI: 🚨 आपातकालीन चेतावनी: अगले 35-45 मिनट में Rampur (रामपुर कटरा) में तेज मूसलाधार बारिश (4.3 मिमी/घंटा) की संभावना!
+
+📍 Village Mauza: Rasauli | रसौली [Cells: 5]
+   Peak Rain: 0.02 mm/hr | Areal Mean: 0.01 mm/hr | Wind: 8.6 km/h | Waterlog: 44%
+   Alert Level: [GREEN]
+   EN: ☀️ SAFE WEATHER: Dry and clear conditions across Rasauli (रसौली).
+   HI: ☀️ मौसम अनुकूल: Rasauli (रसौली) में मौसम साफ और शुष्क रहने का अनुमान है।
+
+📍 Village Mauza: Safedabad | सफेदाबाद [Cells: 9]
+   Peak Rain: 0.00 mm/hr | Areal Mean: 0.00 mm/hr | Wind: 8.6 km/h | Waterlog: 35%
+   Alert Level: [GREEN]
+   EN: ☀️ SAFE WEATHER: Dry and clear conditions across Safedabad (सफेदाबाद).
+   HI: ☀️ मौसम अनुकूल: Safedabad (सफेदाबाद) में मौसम साफ और शुष्क रहने का अनुमान है।
+
+📍 Village Mauza: Satrikh | सतरिख देहात [Cells: 3]
+   Peak Rain: 4.61 mm/hr | Areal Mean: 1.54 mm/hr | Wind: 8.4 km/h | Waterlog: 40%
+   Alert Level: [RED]
+   EN: 🚨 URGENT: Heavy convective downpour (4.6 mm/hr) expected within 35-45 minutes over Satrikh (सतरिख देहात) (Satrikh West - Nalkoop Pargan) [Cells: cell_2_5, cell_2_6, cell_2_7]!
+   HI: 🚨 आपातकालीन चेतावनी: अगले 35-45 मिनट में Satrikh (सतरिख देहात) में तेज मूसलाधार बारिश (4.6 मिमी/घंटा) की संभावना!
+
+📍 Village Mauza: Zaidpur | जैदपुर देहात [Cells: 6]
+   Peak Rain: 0.20 mm/hr | Areal Mean: 0.05 mm/hr | Wind: 8.7 km/h | Waterlog: 32%
+   Alert Level: [GREEN]
+   EN: ☀️ SAFE WEATHER: Dry and clear conditions across Zaidpur (जैदपुर देहात).
+   HI: ☀️ मौसम अनुकूल: Zaidpur (जैदपुर देहात) में मौसम साफ और शुष्क रहने का अनुमान है।
+
+Cadastral plot forecasts mapped to all Khasras -> 'latest_khasra_weather_forecast.csv'
+Complete 64 micro-cell dataset saved to 'latest_inference_output.csv'.

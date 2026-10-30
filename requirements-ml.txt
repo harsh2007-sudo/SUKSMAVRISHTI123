@@ -1,0 +1,8 @@
+# Offline ML pipeline only (predict_grid.py / train_xgboost.py).
+# The website itself does not import these; install them to regenerate
+# latest_inference_output.csv / latest_khasra_weather_forecast.csv.
+xgboost==3.4.1
+scikit-learn==1.9.1
+joblib==1.6.0
+numpy==2.5.4
+pandas==3.1.0

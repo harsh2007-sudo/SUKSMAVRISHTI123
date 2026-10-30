@@ -1,0 +1,6 @@
+# Development / security checks only — the running app never imports these.
+#   .venv/Scripts/python -m pip install -r requirements-dev.txt
+#   .venv/Scripts/python -m pip_audit -r requirements.txt     (dependency CVEs)
+#   .venv/Scripts/python -m bandit -q -r security.py App.py   (code smells)
+pip-audit==2.10.1
+bandit==1.9.4

@@ -1,0 +1,16 @@
+# Suksmavrishti web app — pinned runtime dependencies.
+# Versions match the tested .venv. Audit with:  pip-audit -r requirements.txt
+streamlit==1.66.1
+pandas==3.1.0
+numpy==2.5.4
+pillow==13.0.0
+python-dotenv==1.2.4
+requests==2.34.2
+supabase==2.33.0
+twilio==9.12.0
+
+# Offline ML pipeline (predict_grid.py / train_xgboost.py). Not imported by the
+# website at runtime, but required to regenerate the forecast CSVs:
+#   pip install -r requirements-ml.txt
+# xgboost==3.4.1
+# joblib==1.6.0

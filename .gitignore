@@ -1,0 +1,26 @@
+# ---- Secrets: never commit these ----
+.env
+.env.*
+!.env.example
+.chief_credentials_initial.txt
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# ---- Generated credential / audit material ----
+chief_credentials.json.tmp
+logs/
+training_uploads/*.jpg
+training_uploads/*.jpeg
+training_uploads/*.png
+training_uploads/*.webp
+
+# ---- Local backups and tooling artifacts ----
+.security_backup/
+.sv_tmp/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
